@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Chimera</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- navbar -->
+        <section class="row">
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="navbar-brand">Chimera</a>
+
+                <button class="navbar-toggler" data-bs-target="#navbarcollapse" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="electronics.html" class="nav-link">Electronics</a>
+                        <a href="fashions.html" class="nav-link">Fashions</a>
+                        <a href="shoes.html" class="nav-link">Shoes</a>
+                        <a href="food.html" class="nav-link">Food</a>
+                        <a href="books.html" class="nav-link">Books</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="login.html" class="nav-link active">Login</a>
+                        <a href="#" class="nav-link">Register</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- end of navbar -->
+
+        <!-- login form -->
+        <section class="row justify-content-center mt-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h4>Login to Chimera</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Remember me</label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="mb-0">Don't have an account? <a href="#" class="text-primary">Register here</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of login form -->
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
